@@ -6,9 +6,13 @@
             <link rel="stylesheet" href="/static/all.css">
         {% endassets %}
     </head>
+    <header>
+        <img src="../static/images/logo.png" class="logo"/>
+    </header>
     <body>
-        <!-- <div>UVCare: <a href="/index">Home</a></div> -->
+        
         <nav class="nav">
+            
         <input class="nav__trigger-input" type="checkbox" id="trigger" aria-label="open the navigation"/>
         <label class="nav__trigger-finger" for="trigger">
             <span></span>
@@ -60,7 +64,7 @@
             </li>
         </ul>
         </nav>
-        <hr>
+
         {% block content %}{% endblock %}
     </body>
 </html>
