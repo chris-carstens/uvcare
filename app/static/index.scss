@@ -27,7 +27,7 @@
       width: 15px;
       height: 10px;
       margin: 40px;
-      color: hotpink;
+      color: rgb(167, 40, 206);
       &::before {
         content: '';
         position: absolute;
@@ -35,7 +35,7 @@
         left: -5px;
         bottom: -5px;
         right: -5px;
-        background: hotpink;
+        background: rgb(167, 40, 206);
         opacity: 0;
         z-index: -1;
         transition: opacity 0.3s $bezier;
@@ -116,7 +116,7 @@
       bottom: 0;
       right: 0;
       z-index: -1;
-      background: hotpink;
+      background: rgb(167, 40, 206);
       font-size: 4rem;
       
       padding: 40px;
@@ -171,7 +171,7 @@
       font-size: 3rem;
       font-weight: normal;
       span {
-        color: hotpink;
+        color: rgb(167, 40, 206);
       }
     }  
     p {

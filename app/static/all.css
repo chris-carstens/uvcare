@@ -21,7 +21,7 @@
         width: 15px;
         height: 10px;
         margin: 40px;
-        color: hotpink; }
+        color: #a728ce; }
         .nav__trigger-finger::before {
           content: '';
           position: absolute;
@@ -29,7 +29,7 @@
           left: -5px;
           bottom: -5px;
           right: -5px;
-          background: hotpink;
+          background: #a728ce;
           opacity: 0;
           z-index: -1;
           transition: opacity 0.3s cubic-bezier(0.75, 0, 0.25, 1); }
@@ -87,7 +87,7 @@
         bottom: 0;
         right: 0;
         z-index: -1;
-        background: hotpink;
+        background: #a728ce;
         font-size: 4rem;
         padding: 40px;
         transform: translate(100vw) rotate(45deg);
@@ -123,7 +123,7 @@ main {
     font-size: 3rem;
     font-weight: normal; }
     main h1 span {
-      color: hotpink; }
+      color: #a728ce; }
   main p {
     line-height: 1.5;
     margin-top: 1.5rem; }
