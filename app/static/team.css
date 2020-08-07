@@ -18,7 +18,6 @@
   display: inline-block;
   margin: auto;
   border-radius: 19px;
-  position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
   z-index: 9999; }
@@ -54,53 +53,3 @@
       margin-left: 10px;
       margin-right: 10px;
       word-wrap: break-word; }
-
-      .clash-card__unit-description {
-        padding: 20px;
-        margin-bottom: 10px; }
-
-        .clash-card__unit-stats--barbarian {
-          background: #500368; }
-          .clash-card__unit-stats--barbarian .one-third {
-            border-right: 1px solid #333; }
-
-.clash-card__unit-stats {
-  color: white;
-  font-weight: 700;
-  border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px; }
-  .clash-card__unit-stats .one-third {
-    width: 33%;
-    float: left;
-    padding: 20px 15px;
-    box-sizing: border-box; }
-    .clash-card__unit-stats sup {
-      position: absolute;
-      bottom: 4px;
-      font-size: 45%;
-      margin-left: 2px;
-      box-sizing: border-box; }
-      .clash-card__unit-stats .stat {
-        position: relative;
-        font-size: 24px;
-        margin-bottom: 10px;
-        box-sizing: border-box; }
-        .clash-card__unit-stats .stat-value {
-          text-transform: uppercase;
-          font-weight: 400;
-          font-size: 10px;
-          text-align: center;
-          box-sizing: border-box;
-          word-wrap: break-word; }
-          .clash-card__unit-stats .no-border {
-            border-right: none;
-            box-sizing: border-box; }
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  box-sizing: border-box; }
