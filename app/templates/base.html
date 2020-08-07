@@ -2,6 +2,8 @@
     <head>
         <meta charset="utf-8" />
         <title>UVCare</title>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/static/footer.css">
         {% assets "scss_all" %}
             <link rel="stylesheet" href="/static/all.css">
         {% endassets %}
@@ -68,4 +70,11 @@
 
         {% block content %}{% endblock %}
     </body>
+    <footer>
+      <div class="rounded-social-buttons">
+                        <a class="social-button facebook" href="https://www.facebook.com/UVCare-CL-102963704850565/" target="_blank"><i class="fab fa-facebook-f" id="face"></i></a>
+                        <a class="social-button youtube" href="https://www.youtube.com/channel/UCLy3Ln2EauCWhqNbB7UqZaQ" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="social-button instagram" href="https://www.instagram.com/uvcare_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
 </html>
