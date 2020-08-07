@@ -1,10 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+<head>
+    <link rel="stylesheet" href="/static/blog.css">
+</head>
 <main>
-    <h1>
+    <h1 class="text-center">
         Blog
     </h1>
-    <img src="../static/images/little.png"/>
+    <div class="blog-container">
+        <div class="blog-container-img"><img class="blog-img" src="../static/images/blog/blog1.png"/></div>
+        <div class="blog-container-img"><img class="blog-img" src="../static/images/blog/blog2.png"/></div>
+        <div class="blog-container-img"><img class="blog-img" src="../static/images/blog/blog3.png"/></div>
+    </div>
 </main>
 {% endblock %}
